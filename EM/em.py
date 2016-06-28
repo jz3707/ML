@@ -194,6 +194,6 @@ def plot(x):
 
 if __name__ == '__main__':
     # examples = init_data_list(8.0, 8.0, 165, 180, 100000)
-    examples = generate_data(8.0, 8.0, 160, 180, 100000)
+    examples = generate_data(8.0, 8.0, 165, 180, 100000)
     calc_em(examples)
-    plot(examples)
+    # plot(examples)
