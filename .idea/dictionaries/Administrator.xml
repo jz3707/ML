@@ -3,11 +3,15 @@
     <words>
       <w>autoencoder</w>
       <w>crossentropy</w>
+      <w>dpre</w>
       <w>ggplot</w>
       <w>intermed</w>
+      <w>lstm</w>
+      <w>phifile</w>
       <w>relu</w>
       <w>softmax</w>
       <w>tassgin</w>
+      <w>timesteps</w>
     </words>
   </dictionary>
 </component>

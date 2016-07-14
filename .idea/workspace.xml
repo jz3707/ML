@@ -24,22 +24,12 @@
     <favorites_list name="ML" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sg_ae.py" pinned="true" current-in-tab="false">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py">
+    <leaf>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LDA/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.945946">
-              <caret line="77" column="19" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="embedding.py" pinned="true" current-in-tab="true">
-        <entry file="REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/embedding.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8574822">
-              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.56769055">
+              <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
               <folding>
                 <element signature="e#38#75#0" expanded="true" />
               </folding>
@@ -64,11 +54,15 @@
       <list>
         <option value="$PROJECT_DIR$/EM/utils.py" />
         <option value="$PROJECT_DIR$/EM/pLSA.py" />
-        <option value="$PROJECT_DIR$/EM/lda.py" />
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/autoencoder.py" />
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/mnist_cae.py" />
-        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py" />
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/embedding.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/ae2.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/tf/word2vec_basic.py" />
+        <option value="$PROJECT_DIR$/EM/lda.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/output_layer/output_embedding.py" />
+        <option value="$PROJECT_DIR$/LDA/train.py" />
       </list>
     </option>
   </component>
@@ -93,7 +87,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -106,7 +100,44 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MLLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MLLearning" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LDA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -355,7 +386,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2588889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -393,11 +424,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py</url>
-          <line>3</line>
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/output_layer/output_embedding.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -406,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -416,7 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -424,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -442,9 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#38#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -452,9 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <element signature="e#38#69#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,7 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19681457">
           <caret line="2153" column="4" selection-start-line="2153" selection-start-column="4" selection-end-line="2153" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,7 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27303755">
           <caret line="15" column="11" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,17 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="973" column="4" selection-start-line="973" selection-start-column="4" selection-end-line="973" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EM/lda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15813424">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="e#38#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,7 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.022753129">
           <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -512,8 +515,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6166098">
           <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EM/lda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6814562">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LDA/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56769055">
+          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
           <folding>
-            <element signature="e#38#69#0" expanded="true" />
+            <element signature="e#38#75#0" expanded="true" />
           </folding>
         </state>
       </provider>
