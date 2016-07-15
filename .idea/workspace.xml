@@ -24,15 +24,35 @@
     <favorites_list name="ML" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LDA/train.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="sg_ae.py" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56769055">
-              <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+            <state vertical-scroll-proportion="-2.162162">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question_ae.py" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/question_ae.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.216217">
+              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
               <folding>
-                <element signature="e#38#75#0" expanded="true" />
+                <element signature="e#38#78#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="true" current-in-tab="true">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/RS/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3111639">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -60,9 +80,11 @@
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/ae2.py" />
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/tf/word2vec_basic.py" />
         <option value="$PROJECT_DIR$/EM/lda.py" />
-        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py" />
         <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/output_layer/output_embedding.py" />
         <option value="$PROJECT_DIR$/LDA/train.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/question_ae.py" />
+        <option value="&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/RS/train.py" />
       </list>
     </option>
   </component>
@@ -386,7 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2588889" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -428,12 +450,47 @@
           <line>52</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/sg_ae.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/AE/question_ae.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/RS/train.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>REMOTE_DEPLOYMENT_FS://&lt;d41f8a1a-48d2-42fa-9310-c020ae5a53df&gt;/opt/jz/dl/keras/RS/train.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LDA/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EM/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -522,14 +579,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6814562">
           <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LDA/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56769055">
-          <caret line="90" column="47" selection-start-line="90" selection-start-column="47" selection-end-line="90" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.24232082">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="e#38#75#0" expanded="true" />
           </folding>

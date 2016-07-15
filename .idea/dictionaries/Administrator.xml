@@ -9,6 +9,7 @@
       <w>lstm</w>
       <w>phifile</w>
       <w>relu</w>
+      <w>rmsprop</w>
       <w>softmax</w>
       <w>tassgin</w>
       <w>timesteps</w>
