@@ -1,16 +1,37 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Administrator">
     <words>
+      <w>adadelta</w>
+      <w>attemp</w>
       <w>autoencoder</w>
+      <w>bootsrap</w>
+      <w>clfs</w>
       <w>crossentropy</w>
+      <w>cwsinfo</w>
+      <w>dataset</w>
       <w>dpre</w>
+      <w>dtree</w>
+      <w>elasticnet</w>
       <w>ggplot</w>
+      <w>gini</w>
+      <w>inds</w>
       <w>intermed</w>
+      <w>lbfgs</w>
+      <w>liblinear</w>
+      <w>logloss</w>
       <w>lstm</w>
+      <w>mseloss</w>
       <w>phifile</w>
+      <w>pred</w>
+      <w>readed</w>
+      <w>regressor</w>
       <w>relu</w>
+      <w>rmse</w>
       <w>rmsprop</w>
+      <w>sklearn</w>
       <w>softmax</w>
+      <w>submisson</w>
+      <w>subsmaple</w>
       <w>tassgin</w>
       <w>timesteps</w>
     </words>
